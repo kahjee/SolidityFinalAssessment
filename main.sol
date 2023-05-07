@@ -18,6 +18,9 @@ pragma solidity 0.8.18;
 contract MyToken {
 
     // public variables here
+    string public tokenName = "METACRAFTCOIN";
+    string public tokenAbbr = "MCC";
+    uint public supply = 0;
 
     // mapping variable here
 
