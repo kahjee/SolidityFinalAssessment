@@ -23,8 +23,13 @@ contract MyToken {
     uint public supply = 0;
 
     // mapping variable here
+    mapping(address => uint) public balance;
 
     // mint function
+    function mint (address _address, uint _value) public {
+       supply += _value;
+       balance[_address] += _value;
+    }
 
     // burn function
 
