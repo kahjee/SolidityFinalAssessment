@@ -2,7 +2,7 @@
 
 ## Description
 
-(description text)
+Solidity code assessment for the Metacrafters Solidity Beginner course. 
 
 ## Authors
 
