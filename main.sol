@@ -33,7 +33,7 @@ contract MyToken {
 
     // burn function
     function burning (address _address, uint _value) public {
-       if (balance[_address] >= _value { 
+       if (balance[_address] >= _value) { 
           supply -= _value;
           balance[_address] -= _value;
           }
